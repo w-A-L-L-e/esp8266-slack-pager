@@ -25,4 +25,12 @@ TODO :
 
 Copyright (C) 2016, Maks Surguy
 
+
+```
+New fingerprint most likely needs to be set in code, will do this on a lazy sunday ;)
+echo | openssl s_client -connect slack.com:443 | openssl x509 -fingerprint -noout
+SHA1 Fingerprint=C1:0D:53:49:D2:3E:E5:2B:A2:61:D5:9E:6F:99:0D:3D:FD:8B:B2:B3
+```
+
+
 License: MIT.
